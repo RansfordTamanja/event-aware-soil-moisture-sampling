@@ -1,0 +1,12 @@
+| family                 |   cal_cap | config                                                                  |   cal_rate |   test_rate |   test_rmse_interp |   test_rmse_hold |   delay_mean |
+|:-----------------------|----------:|:------------------------------------------------------------------------|-----------:|------------:|-------------------:|-----------------:|-------------:|
+| Event-aware            |     0.1   | {"tmax": 240, "tevent": 30, "hold": 60, "rain_thr": 1.0}                |    0.09989 |     0.1062  |          0.0005536 |         0.002088 |       12.48  |
+| Event-aware            |     0.095 | {"tmax": 240, "tevent": 30, "hold": 0, "rain_thr": 1.0}                 |    0.09394 |     0.09916 |          0.0006128 |         0.002339 |       21.45  |
+| Event-aware            |     0.09  | {"tmax": 240, "tevent": 60, "hold": 180, "rain_thr": 1.0}               |    0.08445 |     0.08891 |          0.0009774 |         0.002837 |       31.4   |
+| Event-aware            |     0.085 | {"tmax": 240, "tevent": 60, "hold": 180, "rain_thr": 1.0}               |    0.08445 |     0.08891 |          0.0009774 |         0.002837 |       31.4   |
+| Event-aware            |     0.08  | {"tmax": 240, "tevent": 60, "hold": 60, "rain_thr": 1.0}                |    0.07961 |     0.08324 |          0.0009964 |         0.002975 |       32.66  |
+| Event-aware + reactive |     0.1   | {"delta": 0.016, "tmax": 960, "tevent": 30, "hold": 0, "rain_thr": 0.2} |    0.09958 |     0.1139  |          0.001255  |         0.004179 |        5.467 |
+| Event-aware + reactive |     0.095 | none within cap                                                         |  nan       |   nan       |        nan         |       nan        |      nan     |
+| Event-aware + reactive |     0.09  | none within cap                                                         |  nan       |   nan       |        nan         |       nan        |      nan     |
+| Event-aware + reactive |     0.085 | none within cap                                                         |  nan       |   nan       |        nan         |       nan        |      nan     |
+| Event-aware + reactive |     0.08  | none within cap                                                         |  nan       |   nan       |        nan         |       nan        |      nan     |

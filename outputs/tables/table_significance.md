@@ -1,0 +1,11 @@
+| comparison               | metric                      |   days |    mean_diff |   ratio_of_means |       ci_lo |       ci_hi |   p_boot |   A_better_days |   non_tied |      sign_p |   wilcoxon_p |
+|:-------------------------|:----------------------------|-------:|-------------:|-----------------:|------------:|------------:|---------:|----------------:|-----------:|------------:|-------------:|
+| Event-aware vs Fixed-120 | daily MSE (interp)          |    162 |   -4.419e-06 |          0.0694  |  -8.284e-06 |  -2.016e-06 |   0.0004 |              50 |        162 |   1.236e-06 |  nan         |
+| Event-aware vs Fixed-120 | daily MSE (hold)            |    162 |   -1.275e-05 |          0.2963  |  -2.296e-05 |  -5.778e-06 |   0.0004 |              46 |        162 |   3.67e-08  |  nan         |
+| Event-aware vs Fixed-120 | event detection delay (min) |    107 |  -39.25      |          0.2412  | nan         | nan         | nan      |              88 |        103 | nan         |    4.909e-14 |
+| Event-aware vs Reactive  | daily MSE (interp)          |    162 |   -9.768e-06 |          0.03263 |  -1.821e-05 |  -4.709e-06 |   0.0004 |              99 |        162 |   0.005793  |  nan         |
+| Event-aware vs Reactive  | daily MSE (hold)            |    162 |   -2.441e-05 |          0.1802  |  -4.444e-05 |  -1.133e-05 |   0.0004 |              83 |        162 |   0.8138    |  nan         |
+| Event-aware vs Reactive  | event detection delay (min) |    107 |  -71.36      |          0.1488  | nan         | nan         | nan      |              86 |         96 | nan         |    3.071e-14 |
+| Event-aware vs Fixed     | daily MSE (interp)          |    162 |   -1.245e-05 |          0.02579 |  -2.44e-05  |  -5.217e-06 |   0.0004 |              97 |        138 |   2.088e-06 |  nan         |
+| Event-aware vs Fixed     | daily MSE (hold)            |    162 |   -4.68e-05  |          0.1029  |  -7.169e-05 |  -2.8e-05   |   0.0004 |              92 |        138 |   0.0001117 |  nan         |
+| Event-aware vs Fixed     | event detection delay (min) |    107 | -104.3       |          0.1068  | nan         | nan         | nan      |              99 |        106 | nan         |    3.296e-18 |

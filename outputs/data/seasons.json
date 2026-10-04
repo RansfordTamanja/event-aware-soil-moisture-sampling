@@ -1,0 +1,260 @@
+{
+ "info": {
+  "Summer-autumn 2021": {
+   "days": 123.0,
+   "missing_steps_filled": 19,
+   "rain_mm": 97.4,
+   "onsets": 152,
+   "onsets_with_rain_within_6h": 16
+  },
+  "Winter 2021-22": {
+   "days": 127.0,
+   "missing_steps_filled": 0,
+   "rain_mm": 160.0,
+   "onsets": 12,
+   "onsets_with_rain_within_6h": 11
+  }
+ },
+ "rows": [
+  {
+   "period": "Summer-autumn 2021",
+   "target_rate": 0.1,
+   "policy": "Fixed",
+   "rate": 0.0625,
+   "rmse_interp": 0.0028762393073131585,
+   "rmse_hold": 0.005437839999452629,
+   "maxerr_hold": 0.065,
+   "recall": 0.993421052631579,
+   "delay_mean_min": 111.15894039735099,
+   "events": 152
+  },
+  {
+   "period": "Summer-autumn 2021",
+   "target_rate": 0.1,
+   "policy": "Reactive",
+   "rate": 0.0950485546522132,
+   "rmse_interp": 0.002153718692877295,
+   "rmse_hold": 0.00425323418284876,
+   "maxerr_hold": 0.06233333333333333,
+   "recall": 1.0,
+   "delay_mean_min": 92.76315789473684,
+   "events": 152
+  },
+  {
+   "period": "Summer-autumn 2021",
+   "target_rate": 0.1,
+   "policy": "Event-aware",
+   "rate": 0.06563346883468835,
+   "rmse_interp": 0.002842476524113456,
+   "rmse_hold": 0.00547310141555862,
+   "maxerr_hold": 0.06383333333333334,
+   "recall": 1.0,
+   "delay_mean_min": 111.21710526315789,
+   "events": 152
+  },
+  {
+   "period": "Summer-autumn 2021",
+   "target_rate": 0.1,
+   "policy": "Event-aware + reactive",
+   "rate": 0.051024728997289985,
+   "rmse_interp": 0.006093026139067909,
+   "rmse_hold": 0.010193466032532338,
+   "maxerr_hold": 0.0655,
+   "recall": 0.9868421052631579,
+   "delay_mean_min": 372.5,
+   "events": 152
+  },
+  {
+   "period": "Summer-autumn 2021",
+   "target_rate": 0.1,
+   "policy": "Fixed-120",
+   "rate": 0.125,
+   "rmse_interp": 0.0015508405281882138,
+   "rmse_hold": 0.003316467630763821,
+   "maxerr_hold": 0.05616666666666666,
+   "recall": 1.0,
+   "delay_mean_min": 51.61184210526316,
+   "events": 152
+  },
+  {
+   "period": "Summer-autumn 2021",
+   "target_rate": 0.2,
+   "policy": "Fixed",
+   "rate": 0.125,
+   "rmse_interp": 0.0015508405281882138,
+   "rmse_hold": 0.003316467630763821,
+   "maxerr_hold": 0.05616666666666666,
+   "recall": 1.0,
+   "delay_mean_min": 51.61184210526316,
+   "events": 152
+  },
+  {
+   "period": "Summer-autumn 2021",
+   "target_rate": 0.2,
+   "policy": "Reactive",
+   "rate": 0.18598972448057816,
+   "rmse_interp": 0.0010551273801936256,
+   "rmse_hold": 0.0022978412461435453,
+   "maxerr_hold": 0.053166666666666675,
+   "recall": 1.0,
+   "delay_mean_min": 35.328947368421055,
+   "events": 152
+  },
+  {
+   "period": "Summer-autumn 2021",
+   "target_rate": 0.2,
+   "policy": "Event-aware",
+   "rate": 0.13025067750677508,
+   "rmse_interp": 0.0015710959304538503,
+   "rmse_hold": 0.003301853557383482,
+   "maxerr_hold": 0.059,
+   "recall": 0.993421052631579,
+   "delay_mean_min": 47.88079470198676,
+   "events": 152
+  },
+  {
+   "period": "Summer-autumn 2021",
+   "target_rate": 0.2,
+   "policy": "Event-aware + reactive",
+   "rate": 0.16055499096657633,
+   "rmse_interp": 0.0011963185351435758,
+   "rmse_hold": 0.0026366674189586587,
+   "maxerr_hold": 0.05933333333333333,
+   "recall": 1.0,
+   "delay_mean_min": 40.55921052631579,
+   "events": 152
+  },
+  {
+   "period": "Summer-autumn 2021",
+   "target_rate": 0.2,
+   "policy": "Fixed-120",
+   "rate": 0.125,
+   "rmse_interp": 0.0015508405281882138,
+   "rmse_hold": 0.003316467630763821,
+   "maxerr_hold": 0.05616666666666666,
+   "recall": 1.0,
+   "delay_mean_min": 51.61184210526316,
+   "events": 152
+  },
+  {
+   "period": "Winter 2021-22",
+   "target_rate": 0.1,
+   "policy": "Fixed",
+   "rate": 0.0625,
+   "rmse_interp": 0.00046124667474405485,
+   "rmse_hold": 0.000821796043858626,
+   "maxerr_hold": 0.02366666666666667,
+   "recall": 1.0,
+   "delay_mean_min": 128.75,
+   "events": 12
+  },
+  {
+   "period": "Winter 2021-22",
+   "target_rate": 0.1,
+   "policy": "Reactive",
+   "rate": 0.06412674978127733,
+   "rmse_interp": 0.00046802683370503027,
+   "rmse_hold": 0.0007926471269594053,
+   "maxerr_hold": 0.01916666666666667,
+   "recall": 1.0,
+   "delay_mean_min": 95.0,
+   "events": 12
+  },
+  {
+   "period": "Winter 2021-22",
+   "target_rate": 0.1,
+   "policy": "Event-aware",
+   "rate": 0.06824146981627298,
+   "rmse_interp": 0.00031866397792376346,
+   "rmse_hold": 0.00061525523007315,
+   "maxerr_hold": 0.01283333333333334,
+   "recall": 1.0,
+   "delay_mean_min": 77.5,
+   "events": 12
+  },
+  {
+   "period": "Winter 2021-22",
+   "target_rate": 0.1,
+   "policy": "Event-aware + reactive",
+   "rate": 0.05757874015748032,
+   "rmse_interp": 0.0004334114225044723,
+   "rmse_hold": 0.0008428111247562828,
+   "maxerr_hold": 0.013999999999999999,
+   "recall": 1.0,
+   "delay_mean_min": 108.75,
+   "events": 12
+  },
+  {
+   "period": "Winter 2021-22",
+   "target_rate": 0.1,
+   "policy": "Fixed-120",
+   "rate": 0.125,
+   "rmse_interp": 0.000297293089622062,
+   "rmse_hold": 0.000602281539067757,
+   "maxerr_hold": 0.021500000000000002,
+   "recall": 1.0,
+   "delay_mean_min": 58.75,
+   "events": 12
+  },
+  {
+   "period": "Winter 2021-22",
+   "target_rate": 0.2,
+   "policy": "Fixed",
+   "rate": 0.125,
+   "rmse_interp": 0.000297293089622062,
+   "rmse_hold": 0.000602281539067757,
+   "maxerr_hold": 0.021500000000000002,
+   "recall": 1.0,
+   "delay_mean_min": 58.75,
+   "events": 12
+  },
+  {
+   "period": "Winter 2021-22",
+   "target_rate": 0.2,
+   "policy": "Reactive",
+   "rate": 0.12772036307961507,
+   "rmse_interp": 0.0003450928478157224,
+   "rmse_hold": 0.0004953864099925203,
+   "maxerr_hold": 0.01716666666666666,
+   "recall": 1.0,
+   "delay_mean_min": 35.0,
+   "events": 12
+  },
+  {
+   "period": "Winter 2021-22",
+   "target_rate": 0.2,
+   "policy": "Event-aware",
+   "rate": 0.13484251968503938,
+   "rmse_interp": 0.0002594438480530697,
+   "rmse_hold": 0.0004309149348534691,
+   "maxerr_hold": 0.011333333333333329,
+   "recall": 1.0,
+   "delay_mean_min": 31.25,
+   "events": 12
+  },
+  {
+   "period": "Winter 2021-22",
+   "target_rate": 0.2,
+   "policy": "Event-aware + reactive",
+   "rate": 0.15165682414698164,
+   "rmse_interp": 0.0002422009138970064,
+   "rmse_hold": 0.0003634687461488181,
+   "maxerr_hold": 0.012666666666666665,
+   "recall": 1.0,
+   "delay_mean_min": 23.75,
+   "events": 12
+  },
+  {
+   "period": "Winter 2021-22",
+   "target_rate": 0.2,
+   "policy": "Fixed-120",
+   "rate": 0.125,
+   "rmse_interp": 0.000297293089622062,
+   "rmse_hold": 0.000602281539067757,
+   "maxerr_hold": 0.021500000000000002,
+   "recall": 1.0,
+   "delay_mean_min": 58.75,
+   "events": 12
+  }
+ ]
+}
